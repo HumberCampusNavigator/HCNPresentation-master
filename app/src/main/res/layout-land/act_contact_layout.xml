@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/phonebook">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="8">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/contacs_book"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contacts"
+                android:textAppearance="@android:style/TextAppearance.Material.Display1"
+                android:textSize="28dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_weight="3"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_border"
+                android:padding="5dp"
+                android:gravity="center"
+                >
+
+                <Spinner
+                    android:id="@+id/spinAppTech"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    ></Spinner>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_border"
+                android:padding="5dp"
+                android:gravity="center"
+                >
+                <Spinner
+                    android:id="@+id/spinBusinessSchool"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    ></Spinner>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_border"
+                android:padding="5dp"
+                android:gravity="center"
+                >
+                <Spinner
+                    android:id="@+id/spinMediaSchool"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    ></Spinner>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_border"
+                android:padding="5dp"
+                android:gravity="center"
+                >
+                <Spinner
+                    android:id="@+id/spinInformationDesk"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    ></Spinner>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_border"
+                android:gravity="center"
+                >
+
+                <Spinner
+                    android:id="
+                    @+id/spinEmergency"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"></Spinner>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:gravity="bottom|center">
+
+        <ImageView
+            android:id="@+id/callimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/phone_receiver"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/homeimg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/home"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>

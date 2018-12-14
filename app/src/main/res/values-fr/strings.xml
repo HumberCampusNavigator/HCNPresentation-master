@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HCN</string>
+    <string name="settings">réglages</string>
+    <string name="quit">quitter</string>
+    <string name="phonebook">annuaire</string>
+    <string name="defaultmsg">" Votre message s'il vous plait"</string>
+    <string name="first_screen">Premier écran</string>
+    <string name="buttonclick">Bouton</string>
+    <string name="second_screen">Votre message secret est</string>
+    <string name="welcome_screen">Bienvenue sur le campus Humber</string>
+    <string name="textview">Affichage</string>
+    <string name="returnClick">Revenir</string>
+    <string name="secretmsg">Message secret vient ici</string>
+    <string name="passwordstring">Mot de passe</string>
+    <string name="loginid">" Identifiant de connexion"</string>
+    <string name="recvr">Receveur</string>
+    <string name="location1">" Localisation actuelle"</string>
+    <string name="location">Actuel</string>
+    <string name="location2">Destination</string>
+    <string name="scanRequest">" Appuyez sur ce bouton pour scanner le code QR le plus proche."</string>
+    <string name="done">Terminé</string>
+    <string name="loc_on_map">Localisation sur la carte</string>
+    <string name="scanQrCode">" Scannez le code QR le plus proche"</string>
+    <string name="activity_2">Activité 2</string>
+    <string name="welcome_to_humber_campus_navigation">Bienvenue sur le campus Humber</string>
+    <string name="exp_campus">Explorez le campus sur une plate-forme</string>
+    <string name="button">Bouton</string>
+    <string name="button_1">Bouton 1</string>
+    <string name="navigation">La navigation</string>
+    <string name="call_security">Sécurité d\'appel</string>
+    <string name="call_request">S\'il vous plaît confirmer pour appeler la sécurité @ +16476476477</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">fermer le tiroir de navigation</string>
+    <string name="action_example">" exemple d'action"</string>
+    <string name="action_settings">Réglages</string>
+    <string name="in_campus_nav">" Navigation incampus"</string>
+    <string name="find_events">" Trouver des événements"</string>
+    <string name="nearest_washroom">Salle de bain la plus proche</string>
+    <string name="nearest_food_point">Food Point le plus proche</string>
+    <string name="sensor_readings">Lectures du capteur</string>
+</resources>

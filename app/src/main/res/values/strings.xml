@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">HCN</string>
+    <string name="quit">Quit</string>
+    <string name="defaultmsg">Your Message Please</string>
+    <string name="first_screen">First Screen</string>
+    <string name="buttonclick">Button</string>
+    <string name="second_screen">Your Secret Message is</string>
+    <string name="welcome_screen">Welcome to Humber Campus</string>
+    <string name="n01168824" translatable="false">n01168824</string>
+    <string name="textview">TextView</string>
+    <string name="returnClick">RETURN</string>
+    <string name="secretmsg">Secret Message Comes Here</string>
+    <string name="passwordstring">Password</string>
+    <string name="loginid">LoginID</string>
+    <string name="recvr">Receiver</string>
+    <string name="location1">Current Location</string>
+    <string name="location">Current</string>
+    <string name="location2">Destination </string>
+    <string name="scanRequest">Press this Button to scan the nearest QR code</string>
+    <string name="done">DONE</string>
+    <string name="loc_on_map">Location On Map</string>
+    <string name="scanQrCode">Scan Nearest QR Code</string>
+
+    <string name="activity_2">Activity 2</string>
+    <string name="welcome_to_humber_campus_navigation">Welcome to Humber Campus</string>
+    <string name="exp_campus">Explore campus on one plateform</string>
+    <string name="button">Button</string>
+    <string name="button_1">Button 1</string>
+    <string name="navigation">Navigation</string>
+    <string name="call_security">Call Security</string>
+    <string name="call_request">Please confirm to call security @ +16476476477</string>
+    <string name="title_activity_show_map" translatable="false">showMap</string>
+    <string name="title_section1" translatable="false">Section 1</string>
+    <string name="title_section2" translatable="false">Section 2</string>
+    <string name="title_section3" translatable="false">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="in_campus_nav">InCampus Navigation </string>
+    <string name="find_events">Find Events</string>
+    <string name="nearest_washroom">Nearest Washroom</string>
+    <string name="nearest_food_point">Nearest Food Point</string>
+    <string name="sensor_readings">Sensor Readings</string>
+    <string name="settings">Settings</string>
+    <string name="phonebook">Phone Book</string>
+
+
+</resources>
